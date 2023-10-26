@@ -1,0 +1,21 @@
+body {
+    /* use flexbox to center the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
